@@ -1,0 +1,155 @@
+html,body{
+	margin: 0;
+}
+
+body{
+	margin-bottom: 10px;
+	height: 100%;
+	width: auto;
+	background-image: url("../Components/Home.jpg");
+	background-position: center center;
+	background-repeat:  no-repeat;
+    background-attachment: fixed;
+	background-size:  cover;
+	background-color: #E2AA00;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width:601px){.w3-col.m1{width:8.33333%}.w3-col.m2{width:16.66666%}.w3-col.m3,.w3-quarter{width:24.99999%}.w3-col.m4,.w3-third{width:33.33333%}
+.w3-col.m5{width:41.66666%}.w3-col.m6,.w3-half{width:49.99999%}.w3-col.m7{width:58.33333%}.w3-col.m8,.w3-twothird{width:66.66666%}
+.w3-col.m9,.w3-threequarter{width:74.99999%}.w3-col.m10{width:83.33333%}.w3-col.m11{width:91.66666%}.w3-col.m12{width:99.99999%}}
+@media (min-width:993px){.w3-col.l1{width:8.33333%}.w3-col.l2{width:16.66666%}.w3-col.l3{width:24.99999%}.w3-col.l4{width:33.33333%}
+.w3-col.l5{width:41.66666%}.w3-col.l6{width:49.99999%}.w3-col.l7{width:58.33333%}.w3-col.l8{width:66.66666%}
+.w3-col.l9{width:74.99999%}.w3-col.l10{width:83.33333%}.w3-col.l11{width:91.66666%}.w3-col.l12{width:99.99999%}}
+.w3-rest{overflow:hidden}.w3-stretch{margin-left:-16px;margin-right:-16px}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-cell-row{display:table;width:100%}.w3-cell{display:table-cell}
+.w3-cell-top{vertical-align:top}.w3-cell-middle{vertical-align:middle}.w3-cell-bottom{vertical-align:bottom}
+.w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.w3-auto{max-width:95%}}
+@media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+.w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.w3-hide-medium{display:none!important}}
+@media (max-width:992px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
+
+#Packages {
+	width: 400px;
+	height: auto;
+	float: right;
+	color: white;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	margin-top: 15%;
+}
+
+#WebsitePackages{
+	color: #E2AA00;
+}
+#ApplicationPackages{
+	padding-top: 60px;
+	color: #C90A3E;
+}
+
+#WebsitePackagesButton{
+	background-color: #E2AA00;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+#ApplicationPackagesButton{
+	background-color: #C90A3E;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+.Underline hr{
+	width:60%;
+	background-color: white;
+	height: 0.5px;
+	text-align: center;
+}
+
+.Underline{
+	padding-top: 60px;
+}
+
+#AppPackage p{
+	opacity: 0.2;
+}
+
+#ComingSoon{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36%;
+  width: 100%;
+  position: absolute;
+  font-size: 40px;
+  color: #EE9696;
+  font-weight: bold;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: transparent;
+  height: auto;
+  padding-top: 60px;
+  overflow: hidden;
+  margin: 0 auto;
+    transition: all 1.5s ease;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+    color: white;
+    height: auto;
+    background: transparent;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: transparent;
+  height: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1.5s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #E2AA00;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: #E2AA00;}
